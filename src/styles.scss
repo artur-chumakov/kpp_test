@@ -12,4 +12,9 @@ $para: "Helvetica Neue", sans-serif;
 *{
   color: $kpp_dark;
   font-weight: 500;
+  font-family: $para;
+}
+
+body{
+  margin: 0;
 }

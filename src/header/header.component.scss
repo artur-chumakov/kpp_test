@@ -1,12 +1,23 @@
 @import "../styles";
 
 .header{
-  background-color: $kpp_green;
+  background-color: $kpp_pink;
+  flex-direction: column;
   display: flex;
   justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 h1{
   font-family: $title;
   font-weight: 700;
+}
+
+.menu{
+  padding: 2rem;
+}
+
+.selector{
+  padding: 2rem;
 }
