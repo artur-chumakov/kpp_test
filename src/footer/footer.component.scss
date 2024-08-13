@@ -1,0 +1,11 @@
+@import "../styles";
+
+.footer{
+  background-color: $kpp_green;
+  display: flex;
+  justify-content: space-around;
+
+  &--section{
+    margin: 1rem;
+  }
+}

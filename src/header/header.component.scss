@@ -1,0 +1,12 @@
+@import "../styles";
+
+.header{
+  background-color: $kpp_green;
+  display: flex;
+  justify-content: center;
+}
+
+h1{
+  font-family: $title;
+  font-weight: 700;
+}
