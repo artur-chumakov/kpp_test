@@ -7,15 +7,9 @@
   </nav>
   <div class="selector">
     <select class="form-control" (change) = "onChange($event)">
-      <option>
-        EN
-      </option>
-      <option>
-        UA
-      </option>
-      <option>
-        DE
-      </option>
+      @for (item of aLangs | keyvalue; track item) {
+        <option>{{item.value}}</option>
+      }
     </select>
   </div>
 </div>
