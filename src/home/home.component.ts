@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
   styleUrl: './home.component.scss'
 })
 export class HomeComponent {
-
+  isMenuOpen: boolean = false;
+  toggleMenu(): void{
+    this.isMenuOpen = !this.isMenuOpen;
+    console.log("isMenuOpen = " + this.isMenuOpen);
+  }
 }

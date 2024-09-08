@@ -1,1 +1,23 @@
 <p>home works!</p>
+<div class="home_main">
+  <div class="home_main_button" (click)="toggleMenu()">
+    <div class="home_main_button-title">
+      <div class="home_main_button-text">Sprache</div>
+      <div class="home_main_button-arrow"></div>
+    </div>
+    @if(isMenuOpen)
+    {
+    <div class="home_main_button-items">
+      <button class="home_main_button-link">
+        Deutsch
+      </button>
+      <button class="home_main_button-link">
+        Ukrainisch
+      </button>
+      <button class="home_main_button-link">
+        Russisch
+      </button>
+    </div>
+    }
+  </div>
+</div>
